@@ -17,9 +17,7 @@
 Set Automatic Coercions Import.
 Set Implicit Arguments.
 Unset Strict Implicit.
-Require Ring_facts.
-Export Sets Categories Parts Sgroup_cat Monoid_cat Group_cat Abelian_group_cat Ring_cat.
-Export Ring_facts.
+Require Export Ring_facts.
 Require Export Generated_module.
 Section ideals.
 Variable R : RING.

@@ -17,9 +17,7 @@
 Set Automatic Coercions Import.
 Set Implicit Arguments.
 Unset Strict Implicit.
-Require Field_facts.
-Export Sets Categories Parts Sgroup_cat Monoid_cat Group_cat Abelian_group_cat Ring_cat.
-Export Field_facts.
+Require Export Field_facts.
 Require Export Cfield_cat.
 (** Title "Basic properties of  commutative fields." *)
 Section Lemmas1.
